@@ -1,4 +1,4 @@
-export interface IWeatherItem {
+export interface WeatherItem {
   id: string
   icon: string
   background: string

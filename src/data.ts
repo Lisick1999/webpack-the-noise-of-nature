@@ -1,4 +1,4 @@
-import { IWeatherItem } from './types/IWeatherItem';
+import { WeatherItem } from './types/WeatherItem';
 import sunIcon from './assets/icons/sun.svg';
 import rainIcon from './assets/icons/cloud-rain.svg';
 import winterIcon from './assets/icons/cloud-snow.svg';
@@ -9,7 +9,7 @@ import summerSound from './assets/sounds/summer.mp3';
 import rainSound from './assets/sounds/rain.mp3';
 import winterSound from './assets/sounds/winter.mp3';
 
-const weatherData: IWeatherItem[] = [
+const weatherData: WeatherItem[] = [
   {
     id: '14e7f2566',
     icon: sunIcon,

@@ -1,6 +1,6 @@
 import data from './data';
 import './index.scss';
-import { IWeatherItem } from './types/IWeatherItem';
+import { WeatherItem } from './types/WeatherItem';
 
 let playingMusicId: string;
 const list: HTMLElement = document.querySelector('.weather-list');
@@ -38,7 +38,7 @@ list.addEventListener('click', (e) => {
   }
 });
 
-function renderItem(item: IWeatherItem) {
+function renderItem(item: WeatherItem) {
   const listItem = document.createElement('li');
   const weatherItem = document.createElement('button');
   const itemIcon = document.createElement('img');
